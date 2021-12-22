@@ -1,0 +1,141 @@
+/*
+cool gray
+#606462
+
+White
+#EDF0EE
+
+Forest Green
+#00735C
+
+Forest Green
+#00493A */
+
+header {
+    background-color: #00493A;
+    width: 100%;
+    height: 200px;    
+}
+
+#banner {
+    height: 150px;
+    width: 100%;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin: 0;
+}
+
+nav {
+    background-color: #00735C;
+}
+
+header, nav {  
+    color: #EDF0EE;
+}
+.navbutton {
+    color: #606462;
+    font-size: 20px;
+    background-color: #EDF0EE;
+    border: 2px;
+    border-color: #EDF0EE;
+    text-decoration: none;
+    height: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+}
+.navbutton:hover {
+    transition: background-color 0.3s;
+    transition: color 0.3s;
+}
+
+#box {
+    background-color: #00735C;
+    position: fixed;
+    top: 200px;
+    width: 100%;
+    height: calc(100% - 200px);
+    overflow: scroll;
+    padding: 0;
+}
+
+.topnav {
+    height: 50px;
+    position: relative;
+}
+
+.sidenav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+   
+    padding: 20px 5px;
+    box-sizing: border-box;
+}
+
+
+main {
+    background-color: #00735C;
+    margin-left: 250px;
+    box-sizing: border-box;
+    
+
+    /* overflow: scroll; */
+}
+
+section {
+    background-color: #EDF0EE;
+    color: #606462;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    width: 100%;
+    background-color: #00735C;
+    position: absolute;
+    bottom: 0;
+    color: #EDF0EE;
+    text-decoration: none;
+}
+
+.tagtable {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 90%;
+    height: auto;
+}
+
+.code {
+    font-family: monospace;
+    background-color: white;
+}
+
+
+
+
+tr, col {
+    border-color: darkgrey;
+    border-style: solid;
+    border-width: 1px;
+}
+th {
+    border-style: solid;
+    border-color: #555555;
+}
+
+td, th {
+    padding: 4px;
+}
+
+
